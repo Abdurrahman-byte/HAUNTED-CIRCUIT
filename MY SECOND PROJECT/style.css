@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(250, 244, 244) ;
+    font-size: 1rem;
+}
+h1 {
+    color: rgb(207, 49, 49);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+h2 { 
+    color: rgb(20, 20, 20);
+    font-family: 'italics';
+    text-align: center;
+} 
+P {
+    text-align: center;
+}
+ teal-bg {
+    background-color: red;
+    text-align:center;
+}
+
+.teal-bg {
+    color:aqua;
+}
+footer {
+    color: purple;
+    
+}
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+img {
+    max-inline-size: 100%;
+}
+   
+
+.gllry img{
+    display: inline;
+    width: 30%;
+    border-radius: 20px;
+    
+}
+.gllry{
+    background-color:black ;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.gllry img:hover{
+    width: 31%;
+    transition: 100ms;
+}
+
+footer p{
+    font-size: 0.5rem;
+}
+ a {
+    text-decoration: none;
+    font-size: 0.6rem;
+    background-color: red;
+    border-radius: 20px;
+    width: 50px;
+    margin: 100px auto 500px auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid blue;
+    margin-top: 100px;
+}    
+a:hover{
+    border: 1px solid blue;
+    background-color: powderblue;
+    transition: 500ms;   
+}
+img {
+    width: 128px;
+    height: 128px;
+}
